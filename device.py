@@ -28,9 +28,3 @@ class Device():
             self.stock -= amount
         else:
             print("Not enough stock available")
-    
-device = Device("Laptop", 1000, 10, 2)
-device.apply_discount(23)
-print(device.price)
-
-print(device.reduce_stock(7))
