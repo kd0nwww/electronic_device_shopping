@@ -17,7 +17,3 @@ class Laptop(Device):
 
     def display_info(self):
         print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}\nRAM Size: {self.ram_size}\nProccessor Speed: {self.proccessor_speed}")
-
-    
-laptop = Laptop("Dell XPS 13", 1299.99, 50, 12, "16GB", "2.8GHz")
-laptop.display_info()
