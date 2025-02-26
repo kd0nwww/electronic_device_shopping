@@ -7,10 +7,10 @@ class Device():
         self.warranty_period = warranty_period
 
     def __str__(self):
-        return f"Device: {self.name}, Price: {self.price}, Stock: {self.stock}, Warranty Period: {self.warranty_period}"
+        return f"Device: {self.name}, Price: {self.price} USD, Stock: {self.stock}, Warranty Period: {self.warranty_period} months"
     
     def display_info(self):
-        print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}")
+        print(f"Device: {self.name}\nPrice: {self.price} USD\nStock: {self.stock}\nWarranty Period: {self.warranty_period} months")
 
     def apply_discount(self, discount_percentage):
         discount = self.price * discount_percentage / 100
