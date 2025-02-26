@@ -17,8 +17,3 @@ class Tablet(Device):
               
     def display_info(self):
         print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}\nScreen Resolution: {self.screen_resolution}\nWeight: {self.weight}")
-
-tablet = Tablet("iPad Pro", 799.99, 100, 12, "2048x2732", "1.41 lbs")
-tablet.browse_internet()
-tablet.use_touch_screen()
-print(tablet)
