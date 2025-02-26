@@ -14,6 +14,6 @@ class Smartphone(Device):
 
     def install_app(self):
         print(f"App is being installed on {self.name}")
-    
-s = Smartphone("Samsung Galaxy S21", 999.99, 100, 12, "1080x2400", 4000)
-s.make_call()
+
+    def display_info(self):
+        print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}\nScreen Size: {self.screen_size}\nBattery Life: {self.battery_life}")
