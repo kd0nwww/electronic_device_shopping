@@ -7,7 +7,7 @@ class Tablet(Device):
         self.weight = weight
 
     def __str__(self):
-        return super().__str__() + f", Screen Resolution: {self.screen_resolution}, Weight: {self.weight}"
+        return super().__str__() + f", Screen Resolution: {self.screen_resolution}, Weight: {self.weight} grams"
     
     def browse_internet(self):
         print(f"Internet is being browsed on {self.name}")
@@ -16,4 +16,4 @@ class Tablet(Device):
         print(f"Touch screen is being used on {self.name}")
               
     def display_info(self):
-        print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}\nScreen Resolution: {self.screen_resolution}\nWeight: {self.weight}")
+        print(f"Device: {self.name}\nPrice: {self.price} USD\nStock: {self.stock}\nWarranty Period: {self.warranty_period} months\nScreen Resolution: {self.screen_resolution}\nWeight: {self.weight} grams")
