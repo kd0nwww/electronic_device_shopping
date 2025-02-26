@@ -7,7 +7,7 @@ class Smartphone(Device):
         self.battery_life = battery_life
 
     def __str__(self):
-        return super().__str__() + f", Screen Size: {self.screen_size}, Battery Life: {self.battery_life}"
+        return super().__str__() + f", Screen Size: {self.screen_size} inches, Battery Life: {self.battery_life} hours"
     
     def make_call(self):
         print(f"Smartphone {self.name} is making a call")
@@ -16,4 +16,4 @@ class Smartphone(Device):
         print(f"App is being installed on {self.name}")
 
     def display_info(self):
-        print(f"Device: {self.name}\nPrice: {self.price}\nStock: {self.stock}\nWarranty Period: {self.warranty_period}\nScreen Size: {self.screen_size}\nBattery Life: {self.battery_life}")
+        print(f"Device: {self.name}\nPrice: {self.price} USD\nStock: {self.stock}\nWarranty Period: {self.warranty_period} months\nScreen Size: {self.screen_size} inches\nBattery Life: {self.battery_life} hours")
